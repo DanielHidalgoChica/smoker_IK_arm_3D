@@ -130,6 +130,8 @@ The arm consists of 4 joints with different rotation axes:
 | **Snap effector to cigarette tip** | `F` key |
 | **Snap effector to cigarette filter** | `M` key |
 
+To use FK controls after an IK action, one must press `Space` at least one to snap out of the "solving" mode.
+
 ---
 
 ## 🔧 Implementation Details
