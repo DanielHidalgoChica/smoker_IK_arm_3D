@@ -1,5 +1,3 @@
-## Nombre: Daniel Apellidos: Hidalgo Chica Titulación: GIM
-## email: danielhc@correo.ugr.es DNI: 21037568C 
 extends MeshInstance3D
 
 @export var mouth_path: NodePath        # nodo "Mouth" de la cara

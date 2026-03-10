@@ -1,5 +1,3 @@
-## Nombre: Daniel Apellidos: Hidalgo Chica Titulación: GIM
-## email: danielhc@correo.ugr.es DNI: 21037568C 
 extends Node3D
 
 # rotación en la Y
