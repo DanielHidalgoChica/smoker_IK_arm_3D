@@ -1,5 +1,18 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
-/win_export/
-/linux_export/
+
+# UID files (auto-generated)
+*.uid
+
+# Export builds (if you use GitHub Releases instead)
+# builds/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.swp
+*.swo
