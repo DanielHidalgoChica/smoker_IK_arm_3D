@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://7am1h57ldd6"
-path="res://.godot/imported/PixelatedElegance.ttf-6516b2ddaffafca09f9abd320fc9a369.fontdata"
+uid="uid://erdgllynwqkw"
+path="res://.godot/imported/Roboto-Bold.ttf-700a6c5dbfd4f90bca3c99d17e978791.fontdata"
 
 [deps]
 
-source_file="res://addons/debug_draw_3d-1.6.0/examples_dd3d/PixelatedElegance.ttf"
-dest_files=["res://.godot/imported/PixelatedElegance.ttf-6516b2ddaffafca09f9abd320fc9a369.fontdata"]
+source_file="res://project/addons/debug_draw_3d-1.6.0/examples_dd3d/Roboto-Bold.ttf"
+dest_files=["res://.godot/imported/Roboto-Bold.ttf-700a6c5dbfd4f90bca3c99d17e978791.fontdata"]
 
 [params]
 
@@ -30,7 +30,11 @@ Fallbacks=null
 fallbacks=[]
 Compress=null
 compress=true
-preload=[]
+preload=[{
+"chars": [],
+"glyphs": [],
+"name": "New Configuration"
+}]
 language_support={}
 script_support={}
 opentype_features={}

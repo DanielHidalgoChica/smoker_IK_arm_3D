@@ -13,7 +13,7 @@ config_version=5
 config/name="proyecto_p3"
 run/main_scene="uid://cakt72b13m6pq"
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://project/icon.svg"
 
 [debug_draw_3d]
 

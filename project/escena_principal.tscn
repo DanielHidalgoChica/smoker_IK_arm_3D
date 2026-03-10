@@ -1,16 +1,16 @@
 [gd_scene load_steps=29 format=3 uid="uid://cakt72b13m6pq"]
 
-[ext_resource type="Script" uid="uid://cx0njjlqgmigb" path="res://scripts/camara_3d_orbital_simple.gd" id="1_jdg2m"]
-[ext_resource type="Script" uid="uid://phkh7set0rci" path="res://scripts/script_raiz.gd" id="1_r0811"]
-[ext_resource type="Script" uid="uid://cxbf3m06pdq80" path="res://scripts/nodos/shoulder_pivot.gd" id="4_rftnj"]
-[ext_resource type="Script" uid="uid://c1v3c8f77arlm" path="res://scripts/nodos/elbow_pivot.gd" id="5_0or06"]
-[ext_resource type="ArrayMesh" uid="uid://ckwcwm5ompuvx" path="res://modelos_3D/hand/hand.OBJ" id="6_afc6g"]
-[ext_resource type="Script" uid="uid://dri8q333x2ugv" path="res://wrist_pivot_roll.gd" id="6_awcrs"]
-[ext_resource type="Script" uid="uid://djd71yyu2na4w" path="res://scripts/nodos/wrist_pivot_pitch.gd" id="6_iupgd"]
-[ext_resource type="ArrayMesh" uid="uid://804y8dhsa0sw" path="res://modelos_3D/cigarret/model.obj" id="8_lhnnm"]
-[ext_resource type="Script" uid="uid://dhburowo3yuox" path="res://scripts/nodos/piti.gd" id="9_hgi0t"]
-[ext_resource type="Script" uid="uid://07r8nie7a7or" path="res://IKSolver.gd" id="11_1xgag"]
-[ext_resource type="Script" uid="uid://jn2r7nist35t" path="res://controller.gd" id="12_awcrs"]
+[ext_resource type="Script" uid="uid://bwpkfslqqvb08" path="res://project/scripts/camara_3d_orbital_simple.gd" id="1_jdg2m"]
+[ext_resource type="Script" uid="uid://b0y284e6xvm8x" path="res://project/scripts/script_raiz.gd" id="1_r0811"]
+[ext_resource type="Script" uid="uid://bset334qx02fm" path="res://project/scripts/nodos/shoulder_pivot.gd" id="4_rftnj"]
+[ext_resource type="Script" uid="uid://bcpgmpf1vamjp" path="res://project/scripts/nodos/elbow_pivot.gd" id="5_0or06"]
+[ext_resource type="Script" uid="uid://dmjj0tipjqtl8" path="res://project/scripts/nodos/wrist_pivot_roll.gd" id="5_1xgag"]
+[ext_resource type="ArrayMesh" uid="uid://ckwcwm5ompuvx" path="res://project/modelos_3D/hand/hand.OBJ" id="6_afc6g"]
+[ext_resource type="Script" uid="uid://dn4hf68o1swgc" path="res://project/scripts/nodos/wrist_pivot_pitch.gd" id="6_iupgd"]
+[ext_resource type="ArrayMesh" uid="uid://804y8dhsa0sw" path="res://project/modelos_3D/cigarret/model.obj" id="8_lhnnm"]
+[ext_resource type="Script" uid="uid://c06lb476slvd5" path="res://project/scripts/nodos/piti.gd" id="9_hgi0t"]
+[ext_resource type="Script" uid="uid://cnk64c6421abl" path="res://project/IKSolver.gd" id="11_1xgag"]
+[ext_resource type="Script" uid="uid://cdadns7e3g2mg" path="res://project/controller.gd" id="12_awcrs"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hcujj"]
 albedo_color = Color(0.08414119, 0.5793243, 0.9617589, 1)
@@ -107,7 +107,7 @@ skeleton = NodePath("../../..")
 transform = Transform3D(1.0000001, 0, 0, 0, 1.0000001, 0, 0, 0, 1.0000001, 0, -0.50813454, 6.0574344e-08)
 
 [node name="WristPivotRoll" type="Node3D" parent="Smoker/Body/Arm/ShoulderPivot/Forearm/ElbowPivot/Wrist"]
-script = ExtResource("6_awcrs")
+script = ExtResource("5_1xgag")
 
 [node name="WristPivotPitch" type="Node3D" parent="Smoker/Body/Arm/ShoulderPivot/Forearm/ElbowPivot/Wrist/WristPivotRoll"]
 transform = Transform3D(0.9999999, 0, 0, 0, 0.99999994, 0, 0, 0, 1, 0, 0, 0)
