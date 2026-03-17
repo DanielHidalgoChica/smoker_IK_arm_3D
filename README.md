@@ -7,6 +7,8 @@ A **Godot 4** project demonstrating a custom **Cyclic Coordinate Descent (CCD)**
 
 ---
 
+## 🔎 Demo 
+
 <table width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
@@ -26,7 +28,6 @@ A **Godot 4** project demonstrating a custom **Cyclic Coordinate Descent (CCD)**
   </tr>
 </table>
 
----
 
 ## 🚀 Quick Start
 
@@ -47,7 +48,7 @@ Download the latest release for your platform:
    ```git clone https://github.com/DanielHidalgoChica/smoker-IK-arm-3D.git```
 3. Import project on Godot
 4. Press **F5** to run
----
+
 
 ## 🎯 Project Overview
 
