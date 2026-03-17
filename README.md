@@ -8,7 +8,7 @@ A **Godot 4** project demonstrating a custom **Cyclic Coordinate Descent (CCD)**
 ---
 <table>
   <tr>
-    <td valign="top"><img alt="image" src="https://github.com/user-attachments/assets/ef89a71f-51ec-4031-8f84-c47895a76569" width="450"></td>
+    <td valign="top"><img alt="image" src="https://github.com/user-attachments/assets/ef29899a-3f87-4fce-80dd-88004538da91" width="450"></td>
     <td valign="top"><img alt="image" src="https://github.com/user-attachments/assets/e939c904-7184-4eee-a8bb-e4b2e50b8971" width="450"></td>
   </tr>
   <tr>
@@ -17,6 +17,7 @@ A **Godot 4** project demonstrating a custom **Cyclic Coordinate Descent (CCD)**
   </tr>
 </table>
 
+![git_iterative_2](https://github.com/user-attachments/assets/ef29899a-3f87-4fce-80dd-88004538da91)
 
 ---
 
